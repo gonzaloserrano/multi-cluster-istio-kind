@@ -136,7 +136,7 @@ cd testing
 
 ### Test the magic [4](https://istio.io/latest/docs/setup/install/multicluster/verify/)
 
-Go inside a pod and try: `curl -s "helloworld.sample:5000/hello"`. The response should be like when run multiple times
+Go inside a `curl` pod and try: `curl -s "helloworld.sample:5000/hello"`. The response should be like when run multiple times
 
 ```
 while true; do curl -s "helloworld.sample:5000/hello"; done
